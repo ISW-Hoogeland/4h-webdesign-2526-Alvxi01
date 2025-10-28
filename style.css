@@ -36,15 +36,7 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
-@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
-:root{
-   background-color: aliceblue;
-   --font-main: 'Milton Tattoo', cursive;
-
-}
-
 body {
-   font-family: var(--font-main)
 display: grid;
 grid-template-areas: 
 "header header"
