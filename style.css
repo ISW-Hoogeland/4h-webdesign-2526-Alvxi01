@@ -38,8 +38,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
-   background-color: #ebf2fa;
-   color: rgb(0, 0, 0);
+   background-color: #d0e6f4;
+   color: rgb(109, 165, 225);
    padding: 0%;
    border-radius: 0%;
    text-align: center;
@@ -56,7 +56,7 @@ grid-template-areas:
 "header header"
 "nav main"
 "footer footer";
-grid-template-columns: 1fr 8fr;
+grid-template-columns: 1fr 6fr;
 grid-template-rows: 120px 1fr 60px; 
 }
 header {
@@ -65,20 +65,21 @@ text-align: center;
 }
 nav {
 grid-area: nav; 
+background-color: rgb(157, 199, 235);
 text-align: center;
-background-color: rgb(200, 223, 243);
-border-radius: 13px;
-height: 750px;
+border-radius: 16px;
+margin: auto;
+height: 650px;
 }
 nav ul {
    list-style: none;
 }
 nav a{
-   color: rgb(110, 133, 168);
+   color: rgb(89, 118, 162);
    text-decoration: none;
 }
 nav a:hover {
-   color: rgb(7, 153, 221);
+   color: rgb(248, 235, 209);
 }
 main {
 grid-area: main; 
