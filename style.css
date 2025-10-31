@@ -39,7 +39,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 :root {
    background-color: #d0e6f4;
-   color: rgb(109, 165, 225);
+   color: rgb(89, 118, 162);
    padding: 0%;
    border-radius: 0%;
    text-align: center;
@@ -56,22 +56,33 @@ grid-template-areas:
 "header header"
 "nav main"
 "footer footer";
-grid-template-columns: 1fr 6fr;
+grid-template-columns: 2fr 6fr;
 grid-template-rows: 120px 1fr 60px; 
 }
 header {
 grid-area: header; 
+background-color: rgb(139, 185, 221);
+border-radius: 16px;
+padding: 10px;
+margin: 10px;
 text-align: center;
 }
 nav {
 grid-area: nav; 
-background-color: rgb(157, 199, 235);
-text-align: center;
-border-radius: 16px;
-margin: auto;
-height: 650px;
+display: flex;
+align-items: stretch;
 }
 nav ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: rgb(157, 199, 235);
+   border-radius: 16px;
+   margin: 10px;
+   padding: 10px;
+   gap: 16px;
+   height: 500px;
    list-style: none;
 }
 nav a{
