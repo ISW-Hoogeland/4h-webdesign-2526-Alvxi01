@@ -61,7 +61,7 @@ grid-template-rows: 120px 1fr 60px;
 }
 header {
 grid-area: header; 
-background-color: rgb(139, 185, 221);
+background-color: rgb(157, 199, 235);
 border-radius: 16px;
 padding: 10px;
 margin: 10px;
