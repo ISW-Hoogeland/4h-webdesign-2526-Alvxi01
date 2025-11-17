@@ -97,4 +97,6 @@ grid-area: main;
 }
 footer {
 grid-area: footer; 
+background-color: rgb(157, 199, 235);
+padding: 20px;
 }
