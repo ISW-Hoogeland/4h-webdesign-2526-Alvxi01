@@ -73,6 +73,7 @@ padding: 10px;
 margin: 10px;
 text-align: center;
 }
+
 nav {
 grid-area: nav; 
 display: flex;
