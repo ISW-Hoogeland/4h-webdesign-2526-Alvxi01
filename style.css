@@ -107,11 +107,7 @@ grid-area: main;
 }
 
 .balk {
-   margin-right: 75px;
-   background-color: rgb(157, 199, 235);
-}
-.balk {
-   margin-right: 75px;
+   margin-right: 150px;
    background-color: rgb(157, 199, 235);
 }
 
@@ -144,11 +140,18 @@ main img:hover {
 main h3 {
    background-color: #C5D5EA;
    padding: 10px;
-   margin-right: 75px;
+   margin-right: 150px;
    border-radius: 16px;
 }
 h3 {
    color:#7392B7 ;
+}
+table {
+   
+   margin-right: 150px;
+   border-radius: 16px;
+   border-collapse: collapse;
+   width: 80%;
 }
 
 #C5D5EA
