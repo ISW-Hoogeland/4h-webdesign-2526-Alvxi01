@@ -37,6 +37,8 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Stack+Sans+Headline:wght@200..700&display=swap');
 :root {
    background-color: #d0e6f4;
    color: rgb(89, 118, 162);
@@ -46,6 +48,10 @@
    font-size: large;
 }
 
+html, body {
+   height: 100%;
+   margin : 0;
+}
 
 body {
     font-family: "Bubblegum Sans", sans-serif;
@@ -82,7 +88,7 @@ nav ul {
    margin: 10px;
    padding: 10px;
    gap: 16px;
-   height: 500px;
+   height: 1000px;
    list-style: none;
 }
 nav a{
@@ -94,9 +100,59 @@ nav a:hover {
 }
 main {
 grid-area: main; 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
+.balk {
+   margin-right: 75px;
+   background-color: rgb(157, 199, 235);
+}
+.balk {
+   margin-right: 75px;
+   background-color: rgb(157, 199, 235);
+}
+
 footer {
 grid-area: footer; 
 background-color: rgb(157, 199, 235);
-padding: 20px;
+padding: 15px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
+header img {
+position: absolute;
+left: 20px;
+top: 20px;
+height: 80px;
+border-radius: 16px;
+}
+main img {
+   margin-right: 75px;
+   border-radius: 16px;
+   align-items: center;
+}
+main img:hover {
+   transform: scale(1.05);
+   transition: transform 0.3s;
+}
+main h3 {
+   background-color: #C5D5EA;
+   padding: 10px;
+   margin-right: 75px;
+   border-radius: 16px;
+}
+h3 {
+   color:#7392B7 ;
+}
+
+#C5D5EA
+#759EB8
+#7392B7
+#B3C5D7
+#D8E1E9
