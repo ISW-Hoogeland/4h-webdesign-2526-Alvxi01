@@ -88,7 +88,7 @@ nav ul {
    margin: 10px;
    padding: 10px;
    gap: 16px;
-   height: 1000px;
+   height: 1250px;
    list-style: none;
 }
 nav a{
@@ -138,7 +138,7 @@ main img {
    align-items: center;
 }
 main img:hover {
-   transform: scale(1.05);
+   transform: scale(1.02);
    transition: transform 0.3s;
 }
 main h3 {
