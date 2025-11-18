@@ -146,14 +146,19 @@ main h3 {
 h3 {
    color:#7392B7 ;
 }
-table {
-   
-   margin-right: 150px;
-   border-radius: 16px;
-   border-collapse: collapse;
-   width: 80%;
-}
 
+table {
+border-collapse: collapse;
+margin-left: auto; 
+margin-right: auto;
+}
+thead th {
+background-color: #74A9CB;
+color: white
+}
+tbody td {
+border: 1px solid #74A9CB;
+}
 #C5D5EA
 #759EB8
 #7392B7
